@@ -174,10 +174,12 @@ button:disabled {
     font-size: 18px;
     margin-bottom: 4px;
     padding: 12px 24px 0 24px;
+    color:black
 }
 
 .users {
     list-style-type: none;
     font-weight: 300;
     padding: 12px 24px 0 24px;
+    color:black
 }

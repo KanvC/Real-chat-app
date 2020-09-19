@@ -48,7 +48,7 @@ const addUser = ({ id, username, room }) => {
  })
     users.push(user)
     const dataJSON=JSON.stringify(users)
-    fs.writeFileSync("data1.json",dataJSON)
+    fs.writeFileSync("store.json",dataJSON)
     return { user }
 }
 
